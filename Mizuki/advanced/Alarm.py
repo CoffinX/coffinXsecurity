@@ -127,7 +127,7 @@ async def tikclock(event):
         if present > ttime:
             await tbot.send_message(
                 chat,
-                f"**DING DONG**\n\n__This is an alarm set by__ {user} __for reason -__ `{reason}`",
+                f"**ＤＩＮＧ ＤＯＮＧ**\n\n__This is an alarm set by__ {user} __for reason -__ `{reason}`",
             )
             alarms.delete_one(
                 {
