@@ -75,27 +75,27 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there, my name is Mizuki.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
+PM_START_TEXT = """Hey I'm A security guard For ur group music.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ヹ Support", url="https://t.me/CoffinXsupport"),
+        InlineKeyboardButton(text="ヸ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="#⃣ Source Code", url="https://github.com/ImJanindu/Mizuki"
+            text="#⃣ Support Channel", url="https://t.me/CoffinX_updates"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add me to your group ➕", url="t.me/TheMizukiBot?startgroup=true"
+            text="😎 Make Me Your Group Guard 😎", url="t.me/CoffinXsecurity_BoT?startgroup=true"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! My name is *Mizuki*.
-I'm a group management bot, here to help you get around and keep the order in your groups!
+Hey there! My Name Is *coffinXsecurity*.
+I'm a group security guard, here to help you get around and keep the order in your groups!
 
 *Main* commands available:
  ✪ /help: PM's you this message.
@@ -557,7 +557,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1737574436 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
