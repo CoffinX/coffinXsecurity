@@ -1,7 +1,7 @@
 {
-   "name": "Mizuki Bot",
+   "name": "CoffinXsecurity",
    "description": "An Anime themed Telegram group management bot.",
-   "repository": "https://github.com/ImJanindu/Mizuki",
+   "repository": "https://github.com/CoffinX/coffinXsecurity",
    "addons": [
       {
          "options": {
