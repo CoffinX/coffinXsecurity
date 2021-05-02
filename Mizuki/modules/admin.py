@@ -95,9 +95,10 @@ def promote(update: Update, context: CallbackContext) -> str:
 
     log_message = (
         f"<b>{html.escape(chat.title)}:</b>\n"
-        f"#PROMOTED\n"
+        f"#PROMOTED 👀\n"
         f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
         f"<b>User:</b> {mention_html(user_member.user.id, user_member.user.first_name)}"
+        f"<b>Powered By CoffinXsecurity 😎
     )
 
     return log_message
@@ -157,7 +158,7 @@ def demote(update: Update, context: CallbackContext) -> str:
 
         bot.sendMessage(
             chat.id,
-            f"Sucessfully demoted <b>{user_member.user.first_name or user_id}</b>!",
+            f"Sucessfully demoted <b>{user_member.user.first_name or user_id} 👀👀👀👀</b>!",
             parse_mode=ParseMode.HTML,
         )
 
